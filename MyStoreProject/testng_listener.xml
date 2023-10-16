@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.mystore.utility.ExtentManager"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  
+    <classes>
+      <class name="com.mystore.testcases.LoginSession"/>
+      <class name="com.mystore.testcases.EndToEndTest"/>
+      <class name="com.mystore.testcases.CartPageTest"/>
+      <class name="com.mystore.testcases.OverviewPageTest"/>
+      <class name="com.mystore.testcases.CheckoutInfoTest"/>
+      <class name="com.mystore.testcases.HomeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
