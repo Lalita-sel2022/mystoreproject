@@ -35,6 +35,7 @@ public class CartPageTest extends BaseClass
 	    boolean carAvail = cartPage.isProductAvail();
 	    Assert.assertTrue(carAvail);
 	    Log.pass("Product is available in cart page");
+	    
 	   // cartPage.clickCheckoutBtn();
 	}
 }
