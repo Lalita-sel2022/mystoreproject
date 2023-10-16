@@ -19,6 +19,7 @@ public class CartPageTest extends BaseClass
 	public void checkProductToCart()
 	{
 		
+		
 		Log.startTestCase("checkProductToCart");
 		loginPage= new LoginPage();
 		Log.info("Enter username");
