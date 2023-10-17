@@ -110,8 +110,9 @@ public class Action extends BaseClass
 	
 	public static void assertAll()
 	{
-		Reporter.getCurrentTestResult().getTestContext().setAttribute("CriticalFailure", "Y");
+
 		softAssert.assertAll();
+		Reporter.getCurrentTestResult().getTestContext().setAttribute("CriticalFailure", "Y");
 	}
 	
 

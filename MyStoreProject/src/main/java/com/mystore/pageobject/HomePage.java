@@ -22,7 +22,7 @@ public class HomePage extends BaseClass
 	}
 
 	@FindBy(xpath="//div[@class='app_logo']") WebElement appLogo;
-	@FindBy(xpath="(//button[@class='btn btn_primary btn_small btn_inventory'])[1]")WebElement addToCartButton;
+	@FindBy(xpath="//button[@id='add-to-cart-sauce-labs-backpack']")WebElement addToCartButton;
 	@FindBy(xpath="//a[@class='shopping_cart_link']")WebElement CartButton;
 	@FindBy(id="react-burger-menu-btn")WebElement threeDots;//logout_sidebar_link
 	@FindBy(id="logout_sidebar_link")WebElement logoutButton;

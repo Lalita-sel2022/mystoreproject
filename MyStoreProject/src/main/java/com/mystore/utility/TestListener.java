@@ -21,6 +21,12 @@ public class TestListener extends ExtentManager implements ITestListener
 
 	//Action action= new Action();
 	
+	@Override
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public void onTestStart(ITestResult result) {
 		
 		Log.info(result.getName() +"   Test Start");

@@ -7,6 +7,32 @@
   <test thread-count="5" name="LoginTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.mystore.testcases.HomeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="validateLogo"/>
+          <include name="addToCartProduct"/>
+          <include name="validateSortLowToHigh"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.HomeTest -->
+      <class name="com.mystore.testcases.OverviewPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="checkProductToCart"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.OverviewPageTest -->
+      <class name="com.mystore.testcases.CartPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="checkProductToCart"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.CartPageTest -->
       <class name="com.mystore.testcases.EndToEndTest">
         <methods>
           <include name="afterTest"/>
@@ -15,6 +41,14 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.mystore.testcases.EndToEndTest -->
+      <class name="com.mystore.testcases.CheckoutInfoTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="checkProductToCart"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.CheckoutInfoTest -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

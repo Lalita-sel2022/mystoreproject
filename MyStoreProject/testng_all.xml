@@ -8,27 +8,16 @@
    <test thread-count="5" name="LoginTest">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-       <!--<class name="com.mystore.testcases.LoginSession"/>
+    
+       <!-- <class name="com.mystore.testcases.LoginSession"/>-->
       <class name="com.mystore.testcases.EndToEndTest"/>
       <class name="com.mystore.testcases.CartPageTest"/>
       <class name="com.mystore.testcases.OverviewPageTest"/>
       <class name="com.mystore.testcases.CheckoutInfoTest"/>
-      <class name="com.mystore.testcases.HomeTest"/>-->
+      <class name="com.mystore.testcases.HomeTest"/>
        <class name="com.mystore.testcases.EndToEndTest"/>
+     
     </classes>
   </test>
-     <test thread-count="5" name="End to End Test">
-   <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <!-- <class name="com.mystore.testcases.LoginSession"/>
-      <class name="com.mystore.testcases.EndToEndTest"/>
-      <class name="com.mystore.testcases.CartPageTest"/>
-      <class name="com.mystore.testcases.OverviewPageTest"/>
-      <class name="com.mystore.testcases.CheckoutInfoTest"/>
-      <class name="com.mystore.testcases.HomeTest"/>-->
- 
-      
-        <class name="com.mystore.testcases.CartPageTest"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </suite>
+

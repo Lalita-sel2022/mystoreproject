@@ -1,116 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-13T17:14:36 IST" name="Suite" finished-at="2023-10-13T17:14:44 IST" duration-ms="8140">
+  <suite started-at="2023-10-17T11:00:08 IST" name="Suite" finished-at="2023-10-17T11:00:41 IST" duration-ms="33142">
     <groups>
       <group name="Sanity">
-        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
+        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@7ce69770]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="EndToEndTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.EndToEndTest@72035809]" name="checkProductToCart" class="com.mystore.testcases.EndToEndTest"/>
-        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
+        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@7ce69770]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
+        <method signature="CartPageTest.checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@7ce69770]" name="checkProductToCart" class="com.mystore.testcases.CartPageTest"/>
+        <method signature="HomeTest.validateLogo()[pri:0, instance:com.mystore.testcases.HomeTest@268f106e]" name="validateLogo" class="com.mystore.testcases.HomeTest"/>
+        <method signature="LoginSession.loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" name="loginToApp" class="com.mystore.testcases.LoginSession"/>
+        <method signature="LoginSession.logout()[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" name="logout" class="com.mystore.testcases.LoginSession"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-10-13T17:14:36 IST" name="LoginTest" finished-at="2023-10-13T17:14:41 IST" duration-ms="5374">
-      <class name="com.mystore.testcases.EndToEndTest">
-        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.EndToEndTest@72035809]" started-at="2023-10-13T17:14:36 IST" name="beforeClass" finished-at="2023-10-13T17:14:36 IST" duration-ms="328" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@45c9b3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.EndToEndTest@72035809]" started-at="2023-10-13T17:14:36 IST" name="beforeMethod" finished-at="2023-10-13T17:14:39 IST" duration-ms="3184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@45c9b3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="checkProductToCart()[pri:0, instance:com.mystore.testcases.EndToEndTest@72035809]" started-at="2023-10-13T17:14:39 IST" name="checkProductToCart" finished-at="2023-10-13T17:14:41 IST" duration-ms="1446" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Password is not valid]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Password is not valid
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.mystore.actiondriver.Action.assertAll(Action.java:114)
-at com.mystore.testcases.EndToEndTest.checkProductToCart(EndToEndTest.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkProductToCart -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mystore.testcases.EndToEndTest@72035809]" started-at="2023-10-13T17:14:41 IST" name="afterTest" finished-at="2023-10-13T17:14:41 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.mystore.testcases.EndToEndTest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2023-10-13T17:14:41 IST" name="End to End Test" finished-at="2023-10-13T17:14:44 IST" duration-ms="2724">
+    <test started-at="2023-10-17T11:00:08 IST" name="SmokeTest" finished-at="2023-10-17T11:00:41 IST" duration-ms="33142">
       <class name="com.mystore.testcases.CartPageTest">
-        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" started-at="2023-10-13T17:14:41 IST" name="beforeClass" finished-at="2023-10-13T17:14:41 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@38b3f208]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" started-at="2023-10-13T17:14:41 IST" name="beforeMethod" finished-at="2023-10-13T17:14:43 IST" duration-ms="1900" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.CartPageTest@7ce69770]" started-at="2023-10-17T11:00:32 IST" name="beforeMethod" finished-at="2023-10-17T11:00:35 IST" duration-ms="2707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,22 +28,233 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@38b3f208]]>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" started-at="2023-10-13T17:14:43 IST" name="checkProductToCart" finished-at="2023-10-13T17:14:44 IST" duration-ms="728" status="PASS">
+        <test-method signature="checkProductToCart()[pri:0, instance:com.mystore.testcases.CartPageTest@7ce69770]" started-at="2023-10-17T11:00:35 IST" name="checkProductToCart" finished-at="2023-10-17T11:00:37 IST" duration-ms="1745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProductToCart -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.mystore.testcases.CartPageTest@514646ef]" started-at="2023-10-13T17:14:44 IST" name="afterTest" finished-at="2023-10-13T17:14:44 IST" duration-ms="88" status="PASS">
+      </class> <!-- com.mystore.testcases.CartPageTest -->
+      <class name="com.mystore.testcases.LoginSession">
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:08 IST" name="beforeClass" finished-at="2023-10-17T11:00:08 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.mystore.testcases.CartPageTest -->
-    </test> <!-- End to End Test -->
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:09 IST" name="beforeMethod" finished-at="2023-10-17T11:00:12 IST" duration-ms="2609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:12 IST" name="loginToApp" data-provider="LoginData" finished-at="2023-10-17T11:00:13 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr524298]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:13 IST" name="beforeMethod" finished-at="2023-10-17T11:00:15 IST" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:15 IST" name="loginToApp" data-provider="LoginData" finished-at="2023-10-17T11:00:15 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:15 IST" name="beforeMethod" finished-at="2023-10-17T11:00:17 IST" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:17 IST" name="loginToApp" data-provider="LoginData" finished-at="2023-10-17T11:00:17 IST" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apn2232]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:17 IST" name="beforeMethod" finished-at="2023-10-17T11:00:19 IST" duration-ms="1817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:19 IST" name="loginToApp" data-provider="LoginData" finished-at="2023-10-17T11:00:20 IST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbdh6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:20 IST" name="beforeMethod" finished-at="2023-10-17T11:00:22 IST" duration-ms="1932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:22 IST" name="loginToApp" data-provider="LoginData" finished-at="2023-10-17T11:00:22 IST" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:22 IST" name="beforeMethod" finished-at="2023-10-17T11:00:24 IST" duration-ms="1793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logout()[pri:0, instance:com.mystore.testcases.LoginSession@57a78e3]" started-at="2023-10-17T11:00:24 IST" name="logout" finished-at="2023-10-17T11:00:32 IST" duration-ms="8301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.mystore.testcases.LoginSession -->
+      <class name="com.mystore.testcases.HomeTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.mystore.testcases.HomeTest@268f106e]" started-at="2023-10-17T11:00:37 IST" name="beforeMethod" finished-at="2023-10-17T11:00:40 IST" duration-ms="3244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@231cdda8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateLogo()[pri:0, instance:com.mystore.testcases.HomeTest@268f106e]" started-at="2023-10-17T11:00:40 IST" name="validateLogo" finished-at="2023-10-17T11:00:41 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+      </class> <!-- com.mystore.testcases.HomeTest -->
+    </test> <!-- SmokeTest -->
   </suite> <!-- Suite -->
 </testng-results>

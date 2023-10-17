@@ -73,7 +73,7 @@ public class BaseClass {
 		
 		if(browser.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\adj_2\\Downloads\\chromedriver-win64\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\adj_2\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");//C:\Users\adj_2\Downloads\chromedriver-win64 (1)\chromedriver-win64
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*"); 
 	        driver= new ChromeDriver(options);
@@ -99,9 +99,6 @@ public class BaseClass {
 	@BeforeMethod(groups = {"Smoke","Regression", "Sanity"})
 	public void beforeMethod(String browser, ITestContext context)
 	{	
-		
-		launchBrowser(browser);
-		navigateUrl();
 		String criticalFailure = (String)context.getAttribute("CriticalFailure");
 		if(criticalFailure!=null && criticalFailure.equals("Y"))
 		{
@@ -109,7 +106,9 @@ public class BaseClass {
 			throw new SkipException("critical Failure in previous test");
 			
 		}
-		report=(ExtentReports)context.getAttribute("report");
+		launchBrowser(browser);
+		navigateUrl();
+	    report=(ExtentReports)context.getAttribute("report");
 		test=(ExtentTest)context.getAttribute("test");
 	}
 	
