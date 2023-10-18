@@ -9,7 +9,7 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
     
-       <!-- <class name="com.mystore.testcases.LoginSession"/>-->
+       <class name="com.mystore.testcases.LoginSession"/>
       <class name="com.mystore.testcases.EndToEndTest"/>
       <class name="com.mystore.testcases.CartPageTest"/>
       <class name="com.mystore.testcases.OverviewPageTest"/>

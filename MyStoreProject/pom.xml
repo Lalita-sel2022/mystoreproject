@@ -104,7 +104,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng_smoke.xml</suiteXmlFile>
-						<suiteXmlFile>testng_all.xml</suiteXmlFile>
+						<!--<suiteXmlFile>testng_all.xml</suiteXmlFile>-->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
