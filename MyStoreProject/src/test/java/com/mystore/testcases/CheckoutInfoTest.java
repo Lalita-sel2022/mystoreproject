@@ -8,7 +8,6 @@ import com.mystore.pageobject.CartPage;
 import com.mystore.pageobject.CheckOutInfo;
 import com.mystore.pageobject.HomePage;
 import com.mystore.pageobject.LoginPage;
-import com.mystore.pageobject.OverviewPage;
 import com.mystore.utility.Log;
 
 public class CheckoutInfoTest extends BaseClass

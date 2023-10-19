@@ -1,9 +1,7 @@
 package com.mystore.testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
 import com.mystore.base.BaseClass;
 import com.mystore.dataprovider.DataProviders;
 import com.mystore.pageobject.HomePage;

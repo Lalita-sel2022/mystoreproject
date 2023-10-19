@@ -5,8 +5,6 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
-import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 import com.mystore.pageobject.CartPage;
 import com.mystore.pageobject.CheckOutInfo;
