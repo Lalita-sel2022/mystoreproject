@@ -1,20 +1,11 @@
 package com.mystore.utility;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.mystore.actiondriver.Action;
 
 public class TestListener extends ExtentManager implements ITestListener
 {
