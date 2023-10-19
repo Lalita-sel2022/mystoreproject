@@ -13718,3 +13718,79 @@
 2023-10-19 12:11:22,997 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
 2023-10-19 12:11:33,515 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
 2023-10-19 12:11:40,102 +0530 [main] INFO  (Log.java:16) - =====================================validateLogo TEST START=========================================
+2023-10-19 14:54:32,002 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-19 14:54:32,009 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-19 14:54:32,009 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-19 14:54:32,014 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@773e2eb5
+2023-10-19 14:54:32,032 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-19 14:54:32,032 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2023-10-19 14:54:32,035 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-19 14:54:32,036 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-19 14:54:32,037 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-19 14:54:32,038 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-19 14:54:32,039 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-19 14:54:32,040 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-19 14:54:32,041 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17d88132
+2023-10-19 14:54:32,043 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-19 14:54:32,044 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-19 14:54:32,046 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-19 14:54:32,047 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-19 14:54:32,048 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-19 14:54:32,048 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-19 14:54:32,049 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-19 14:54:32,050 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-19 14:54:32,051 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-19 14:54:32,051 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-19 14:54:32,061 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-19 14:54:32,087 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-19 14:54:32,087 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-19 14:54:32,102 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-19 14:54:32,102 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-19 14:54:32,121 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-19 14:54:32,144 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-19 14:54:32,154 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-19 14:54:32,154 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-19 14:54:32,202 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-19 14:54:32,202 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-19 14:54:32,202 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-19 14:54:32,202 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-19 14:54:32,202 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-19 14:54:32,203 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-19 14:54:32,204 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-19 14:54:32,216 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-19 14:54:32,217 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-19 14:54:32,217 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-19 14:54:32,498 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 28332 (auto-detected)
+2023-10-19 14:54:32,500 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-19 14:54:32,500 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-19 14:54:32,509 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-19 14:54:32,510 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-19 14:54:32,538 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-19 14:54:32,587 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-19 14:54:32,587 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-19 14:54:32,587 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@f9353a3
+2023-10-19 14:54:32,615 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-19 14:54:32,615 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-19 14:54:32,615 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-19 14:54:32,615 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-19 14:54:32,616 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-19 14:54:33,395 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-19 14:54:33,565 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x3bc6c313a0af740d
+2023-10-19 14:54:34,398 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-19 14:54:34,906 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-19 14:54:36,646 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-19 14:54:37,109 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-19 14:54:38,842 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-19 14:54:39,297 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-19 14:54:40,900 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-19 14:54:41,280 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-19 14:54:42,961 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-19 14:54:43,308 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-19 14:54:47,813 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-19 14:55:04,369 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-19 14:55:08,854 +0530 [main] INFO  (Log.java:16) - =====================================validateLogo TEST START=========================================
