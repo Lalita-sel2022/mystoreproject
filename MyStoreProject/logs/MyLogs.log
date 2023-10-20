@@ -14316,3 +14316,598 @@
 2023-10-20 12:06:23,840 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2023-10-20 12:06:23,841 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2023-10-20 12:06:23,841 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-10-20 12:15:44,030 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 12:15:44,039 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 12:15:44,040 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 12:15:44,049 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2caf6912
+2023-10-20 12:15:44,077 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 12:15:44,077 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 12:15:44,080 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 12:15:44,081 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 12:15:44,082 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 12:15:44,083 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 12:15:44,084 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 12:15:44,085 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 12:15:44,088 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 12:15:44,089 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 12:15:44,090 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 12:15:44,092 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 12:15:44,093 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 12:15:44,094 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 12:15:44,095 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 12:15:44,096 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 12:15:44,097 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 12:15:44,098 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 12:15:44,099 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 12:15:44,112 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 12:15:44,143 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 12:15:44,143 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 12:15:44,293 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 12:15:44,293 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 12:15:44,306 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 12:15:44,321 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 12:15:44,330 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 12:15:44,330 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 12:15:44,369 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 12:15:44,370 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 12:15:44,370 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 12:15:44,370 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 12:15:44,370 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 12:15:44,370 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 12:15:44,371 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 12:15:44,383 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 12:15:44,383 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 12:15:44,384 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 12:15:44,684 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 14128 (auto-detected)
+2023-10-20 12:15:44,686 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 12:15:44,686 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 12:15:44,970 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 12:15:44,972 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 12:15:44,986 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 12:15:45,037 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 12:15:45,039 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 12:15:45,039 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a5de315
+2023-10-20 12:15:45,074 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 12:15:45,075 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 12:15:45,075 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 12:15:45,075 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 12:15:45,075 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 12:15:45,772 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 12:15:45,996 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x1eb4132eb10326b1
+2023-10-20 12:15:46,934 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:15:47,370 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:15:49,069 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:15:49,572 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:15:51,348 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:15:51,813 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:15:53,476 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:15:53,869 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:15:55,603 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:15:55,957 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:15:57,738 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 12:16:09,619 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:33:02,216 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 12:33:02,228 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 12:33:02,229 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 12:33:02,234 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d400943
+2023-10-20 12:33:02,262 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 12:33:02,263 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 12:33:02,265 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 12:33:02,266 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 12:33:02,267 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 12:33:02,268 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 12:33:02,272 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 12:33:02,273 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 12:33:02,275 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 12:33:02,277 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 12:33:02,277 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 12:33:02,279 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 12:33:02,280 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 12:33:02,280 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 12:33:02,280 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 12:33:02,281 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 12:33:02,282 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 12:33:02,283 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 12:33:02,283 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 12:33:02,293 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 12:33:02,320 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 12:33:02,320 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 12:33:02,496 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 12:33:02,496 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 12:33:02,515 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 12:33:02,534 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 12:33:02,547 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 12:33:02,547 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 12:33:02,588 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 12:33:02,588 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 12:33:02,589 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 12:33:02,590 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 12:33:02,590 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 12:33:02,590 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 12:33:02,590 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 12:33:02,608 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 12:33:02,609 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 12:33:02,609 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 12:33:02,962 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 11508 (auto-detected)
+2023-10-20 12:33:02,964 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 12:33:02,964 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 12:33:03,290 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 12:33:03,292 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 12:33:03,308 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 12:33:03,376 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 12:33:03,377 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 12:33:03,378 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@444bed08
+2023-10-20 12:33:03,415 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 12:33:03,416 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 12:33:03,416 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 12:33:03,416 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 12:33:03,416 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 12:33:04,357 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 12:33:04,506 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x877425d029735f4e
+2023-10-20 12:33:05,887 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:33:06,289 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:33:07,946 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:33:08,380 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:33:10,208 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:33:10,618 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:33:12,265 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:33:12,654 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:33:14,328 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:33:14,654 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:33:16,402 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 12:35:14,063 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 12:35:14,075 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 12:35:14,075 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 12:35:14,082 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d400943
+2023-10-20 12:35:14,119 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 12:35:14,119 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 12:35:14,124 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 12:35:14,125 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 12:35:14,126 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 12:35:14,126 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 12:35:14,128 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 12:35:14,129 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 12:35:14,130 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 12:35:14,132 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 12:35:14,132 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 12:35:14,133 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 12:35:14,135 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 12:35:14,135 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 12:35:14,136 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 12:35:14,137 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 12:35:14,139 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 12:35:14,141 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 12:35:14,142 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 12:35:14,153 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 12:35:14,189 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 12:35:14,190 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 12:35:14,380 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 12:35:14,380 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 12:35:14,398 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 12:35:14,418 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 12:35:14,429 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 12:35:14,430 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 12:35:14,469 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 12:35:14,470 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 12:35:14,470 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 12:35:14,470 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 12:35:14,470 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 12:35:14,470 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 12:35:14,472 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 12:35:14,473 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 12:35:14,473 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 12:35:14,473 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 12:35:14,474 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 12:35:14,474 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 12:35:14,486 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 12:35:14,487 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 12:35:14,487 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 12:35:14,850 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 20932 (auto-detected)
+2023-10-20 12:35:14,852 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 12:35:14,853 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 12:35:15,231 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 12:35:15,232 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 12:35:15,251 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 12:35:15,317 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 12:35:15,319 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 12:35:15,319 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2651e9a1
+2023-10-20 12:35:15,359 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 12:35:15,360 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 12:35:15,360 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 12:35:15,361 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 12:35:15,361 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 12:35:16,362 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 12:35:16,567 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x04b3197357cd174a
+2023-10-20 12:35:17,610 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:35:18,012 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:35:19,223 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:35:20,021 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:35:21,930 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:35:22,387 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:35:24,046 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:35:24,473 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:35:26,283 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:35:26,620 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:35:28,356 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 12:35:59,949 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:36:33,817 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:36:45,038 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:36:48,467 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:36:51,862 +0530 [main] INFO  (Log.java:16) - =====================================addToCartProduct TEST START=========================================
+2023-10-20 12:36:57,437 +0530 [main] INFO  (Log.java:16) - =====================================validateLogo TEST START=========================================
+2023-10-20 12:37:04,205 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:04,208 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2023-10-20 12:37:04,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2023-10-20 12:37:04,213 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2023-10-20 12:37:04,890 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:04,891 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2023-10-20 12:37:04,892 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2023-10-20 12:37:04,893 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2023-10-20 12:37:04,900 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:04,901 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2023-10-20 12:37:04,902 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2023-10-20 12:37:04,902 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2023-10-20 12:37:04,960 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:04,961 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2023-10-20 12:37:04,962 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2023-10-20 12:37:04,963 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2023-10-20 12:37:04,986 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:04,988 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2023-10-20 12:37:04,990 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2023-10-20 12:37:04,991 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2023-10-20 12:37:05,014 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,015 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2023-10-20 12:37:05,016 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2023-10-20 12:37:05,017 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2023-10-20 12:37:05,113 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,114 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2023-10-20 12:37:05,117 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2023-10-20 12:37:05,117 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2023-10-20 12:37:05,122 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,130 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2023-10-20 12:37:05,131 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2023-10-20 12:37:05,132 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2023-10-20 12:37:05,136 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,137 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2023-10-20 12:37:05,138 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2023-10-20 12:37:05,138 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2023-10-20 12:37:05,142 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,143 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2023-10-20 12:37:05,144 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2023-10-20 12:37:05,144 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2023-10-20 12:37:05,154 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:37:05,156 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2023-10-20 12:37:05,170 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2023-10-20 12:37:05,170 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-10-20 12:38:36,179 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 12:38:36,185 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 12:38:36,186 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 12:38:36,192 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2caf6912
+2023-10-20 12:38:36,214 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 12:38:36,214 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 12:38:36,217 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 12:38:36,218 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 12:38:36,218 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 12:38:36,219 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 12:38:36,220 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 12:38:36,220 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 12:38:36,223 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 12:38:36,226 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 12:38:36,226 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 12:38:36,228 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 12:38:36,230 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 12:38:36,230 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 12:38:36,231 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 12:38:36,232 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 12:38:36,232 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 12:38:36,233 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 12:38:36,234 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 12:38:36,244 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 12:38:36,274 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 12:38:36,274 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 12:38:36,447 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 12:38:36,447 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 12:38:36,463 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 12:38:36,481 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 12:38:36,491 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 12:38:36,491 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 12:38:36,532 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 12:38:36,532 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 12:38:36,532 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 12:38:36,533 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 12:38:36,533 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 12:38:36,533 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 12:38:36,533 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 12:38:36,534 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 12:38:36,534 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 12:38:36,534 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 12:38:36,534 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 12:38:36,535 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 12:38:36,552 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 12:38:36,552 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 12:38:36,553 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 12:38:36,903 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 13088 (auto-detected)
+2023-10-20 12:38:36,908 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 12:38:36,908 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 12:38:37,243 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 12:38:37,244 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 12:38:37,274 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 12:38:37,353 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 12:38:37,354 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 12:38:37,354 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20347b2
+2023-10-20 12:38:37,416 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 12:38:37,417 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 12:38:37,417 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 12:38:37,417 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 12:38:37,418 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 12:38:38,314 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 12:38:38,504 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x61795a2448c65edd
+2023-10-20 12:38:39,478 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:38:39,940 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:38:41,661 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:38:42,136 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:38:43,883 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:38:44,320 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:38:46,209 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:38:46,925 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:38:48,575 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:38:48,984 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:38:50,922 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 12:40:04,887 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 12:40:04,898 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 12:40:04,899 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 12:40:04,906 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d400943
+2023-10-20 12:40:04,931 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 12:40:04,932 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 12:40:04,934 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 12:40:04,936 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 12:40:04,937 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 12:40:04,938 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 12:40:04,939 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 12:40:04,941 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 12:40:04,943 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 12:40:04,944 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 12:40:04,945 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 12:40:04,946 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 12:40:04,948 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 12:40:04,948 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 12:40:04,949 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 12:40:04,950 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 12:40:04,951 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 12:40:04,952 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 12:40:04,952 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 12:40:04,961 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 12:40:04,998 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 12:40:04,998 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 12:40:05,154 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 12:40:05,155 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 12:40:05,169 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 12:40:05,182 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 12:40:05,191 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 12:40:05,191 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 12:40:05,229 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 12:40:05,230 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 12:40:05,230 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 12:40:05,230 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 12:40:05,230 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 12:40:05,231 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 12:40:05,232 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 12:40:05,244 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 12:40:05,245 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 12:40:05,245 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 12:40:05,543 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 15412 (auto-detected)
+2023-10-20 12:40:05,546 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 12:40:05,547 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 12:40:05,830 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 12:40:05,832 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 12:40:05,846 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 12:40:05,901 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 12:40:05,903 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 12:40:05,903 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@28b5bff1
+2023-10-20 12:40:05,940 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 12:40:05,940 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 12:40:05,940 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 12:40:05,941 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 12:40:05,941 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 12:40:07,001 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 12:40:07,103 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x9d1d9e208c4c9202
+2023-10-20 12:40:08,037 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:40:08,466 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:40:10,024 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:40:10,567 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:40:12,329 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:40:12,785 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:40:14,509 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:40:14,888 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:40:16,584 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 12:40:16,922 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 12:40:18,585 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 12:40:29,362 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:40:34,668 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:40:53,251 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:40:56,610 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 12:40:59,554 +0530 [main] INFO  (Log.java:16) - =====================================addToCartProduct TEST START=========================================
+2023-10-20 12:41:01,965 +0530 [main] INFO  (Log.java:16) - =====================================validateLogo TEST START=========================================
+2023-10-20 12:41:06,799 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:06,802 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2023-10-20 12:41:06,810 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2023-10-20 12:41:06,811 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2023-10-20 12:41:07,471 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,472 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2023-10-20 12:41:07,473 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2023-10-20 12:41:07,474 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2023-10-20 12:41:07,480 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,482 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2023-10-20 12:41:07,483 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2023-10-20 12:41:07,484 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2023-10-20 12:41:07,548 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,549 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2023-10-20 12:41:07,550 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2023-10-20 12:41:07,550 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2023-10-20 12:41:07,583 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,585 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2023-10-20 12:41:07,588 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2023-10-20 12:41:07,590 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2023-10-20 12:41:07,651 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,652 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2023-10-20 12:41:07,659 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2023-10-20 12:41:07,673 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2023-10-20 12:41:07,820 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,824 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2023-10-20 12:41:07,826 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2023-10-20 12:41:07,827 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2023-10-20 12:41:07,833 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,835 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2023-10-20 12:41:07,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2023-10-20 12:41:07,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2023-10-20 12:41:07,845 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,847 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2023-10-20 12:41:07,850 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2023-10-20 12:41:07,850 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2023-10-20 12:41:07,860 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,945 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2023-10-20 12:41:07,952 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2023-10-20 12:41:07,953 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2023-10-20 12:41:07,981 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 12:41:07,984 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2023-10-20 12:41:07,987 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2023-10-20 12:41:07,987 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-10-20 14:10:08,468 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2023-10-20 14:10:08,475 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-10-20 14:10:08,475 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-10-20 14:10:08,480 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2caf6912
+2023-10-20 14:10:08,499 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2023-10-20 14:10:08,501 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 11
+2023-10-20 14:10:08,503 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-10-20 14:10:08,504 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-10-20 14:10:08,505 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-10-20 14:10:08,506 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-10-20 14:10:08,507 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-10-20 14:10:08,508 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2023-10-20 14:10:08,510 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3212a8d7
+2023-10-20 14:10:08,511 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-10-20 14:10:08,512 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-10-20 14:10:08,513 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4261412864 bytes (maybe)
+2023-10-20 14:10:08,514 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\adj_2\AppData\Local\Temp (java.io.tmpdir)
+2023-10-20 14:10:08,515 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-10-20 14:10:08,515 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2023-10-20 14:10:08,516 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-10-20 14:10:08,517 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-10-20 14:10:08,518 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-10-20 14:10:08,518 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-10-20 14:10:08,525 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-10-20 14:10:08,556 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-10-20 14:10:08,557 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-10-20 14:10:08,712 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-10-20 14:10:08,712 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-10-20 14:10:08,726 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-10-20 14:10:08,740 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 8
+2023-10-20 14:10:08,748 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-10-20 14:10:08,749 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-10-20 14:10:08,788 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 8
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 8
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2023-10-20 14:10:08,789 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2023-10-20 14:10:08,790 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-10-20 14:10:08,790 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-10-20 14:10:08,790 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-10-20 14:10:08,790 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-10-20 14:10:08,790 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-10-20 14:10:08,802 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2023-10-20 14:10:08,802 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-10-20 14:10:08,803 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-10-20 14:10:09,097 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 3308 (auto-detected)
+2023-10-20 14:10:09,099 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-10-20 14:10:09,100 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-10-20 14:10:09,393 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-10-20 14:10:09,395 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-10-20 14:10:09,409 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: b0:52:16:ff:fe:c1:79:83 (auto-detected)
+2023-10-20 14:10:09,463 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2023-10-20 14:10:09,465 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2023-10-20 14:10:09,465 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@324b0a9a
+2023-10-20 14:10:09,499 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-10-20 14:10:09,499 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2023-10-20 14:10:09,500 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2023-10-20 14:10:09,500 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2023-10-20 14:10:09,500 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-10-20 14:10:10,319 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-10-20 14:10:10,483 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0xbd78a51441388d86
+2023-10-20 14:10:11,465 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 14:10:11,924 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 14:10:13,517 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 14:10:13,970 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 14:10:15,784 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 14:10:16,366 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 14:10:18,486 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 14:10:18,982 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 14:10:20,702 +0530 [main] INFO  (Log.java:16) - =====================================loginToApp TEST START=========================================
+2023-10-20 14:10:21,839 +0530 [main] INFO  (Log.java:20) - =====================================loginToApp TEST END=========================================
+2023-10-20 14:10:24,714 +0530 [main] INFO  (Log.java:16) - =====================================logout TEST START=========================================
+2023-10-20 14:10:47,542 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 14:10:53,719 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 14:11:01,490 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 14:11:04,435 +0530 [main] INFO  (Log.java:16) - =====================================checkProductToCart TEST START=========================================
+2023-10-20 14:11:07,550 +0530 [main] INFO  (Log.java:16) - =====================================addToCartProduct TEST START=========================================
+2023-10-20 14:11:12,346 +0530 [main] INFO  (Log.java:16) - =====================================validateLogo TEST START=========================================
+2023-10-20 14:11:21,864 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:21,866 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2023-10-20 14:11:21,869 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2023-10-20 14:11:21,869 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2023-10-20 14:11:22,340 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,341 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2023-10-20 14:11:22,342 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2023-10-20 14:11:22,342 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2023-10-20 14:11:22,346 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,347 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2023-10-20 14:11:22,348 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2023-10-20 14:11:22,349 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2023-10-20 14:11:22,373 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,375 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2023-10-20 14:11:22,376 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2023-10-20 14:11:22,376 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2023-10-20 14:11:22,402 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,403 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2023-10-20 14:11:22,405 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2023-10-20 14:11:22,405 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2023-10-20 14:11:22,441 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,442 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2023-10-20 14:11:22,445 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2023-10-20 14:11:22,446 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2023-10-20 14:11:22,523 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,525 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2023-10-20 14:11:22,525 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2023-10-20 14:11:22,526 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2023-10-20 14:11:22,531 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,531 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2023-10-20 14:11:22,533 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2023-10-20 14:11:22,533 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2023-10-20 14:11:22,559 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,571 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2023-10-20 14:11:22,573 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2023-10-20 14:11:22,573 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2023-10-20 14:11:22,577 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,579 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2023-10-20 14:11:22,580 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2023-10-20 14:11:22,580 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2023-10-20 14:11:22,597 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-10-20 14:11:22,598 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2023-10-20 14:11:22,603 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2023-10-20 14:11:22,603 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/adj_2/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
